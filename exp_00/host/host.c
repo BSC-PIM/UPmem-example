@@ -1,9 +1,10 @@
-#include <stdio.h>
 #include <dpu.h>
 #include <dpu_log.h>
+#include <stdio.h>
+
 
 #ifndef DPU_BINARY
-#define DPU_BINARY "./helloworld"
+#define DPU_BINARY "build/exp00_dpu"
 #endif
 
 int main(void) {
