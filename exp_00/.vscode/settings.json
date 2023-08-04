@@ -2,12 +2,10 @@
     "C_Cpp.default.enableConfigurationSquiggles": false,
     "C_Cpp.default.includePath": [
       "${default}",
-      "${UPMEM_HOME}/lib",
-      "${UPMEM_HOME}/share/upmem/include/stdlib",
+      "${UPMEM_HOME}/include/dpu/",
       "${UPMEM_HOME}/share/upmem/include/syslib",
-      "${UPMEM_HOME}/include/dpu",
-      "${UPMEM_HOME}/include/dpu/ufi"
-  ],
+      "${UPMEM_HOME}/share/upmem/include/stdlib"
+    ],
   "files.associations": {
       "stdlib.h": "c"
   }
